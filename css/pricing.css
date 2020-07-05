@@ -105,7 +105,7 @@ body {
 }
 
 .btn-primary {
-  background: #30d9c8;
+  background:  hsl(180, 66%, 49%);
   color: #fff !important;
 }
 
@@ -425,8 +425,7 @@ input:checked + .slider:before {
   margin-left: auto;
   margin-right: auto;
   padding: 1rem 2.3rem;
-  background: #30d9c8;
-  color: #fff !important;
+  background:  hsl(180, 66%, 49%);
   border-radius: 200px;
   border: none;
 }
@@ -454,7 +453,7 @@ footer .footer a {
 }
 
 footer .footer a:hover {
-  color: var(--cyan);
+  color:  hsl(180, 66%, 49%);
 }
 
 footer .footer a:first-child {
@@ -503,35 +502,23 @@ i {
     /* text-align: left; */
   }
 
-  .footer-links {
-    /* display: flex; */
+  footer {
     flex-direction: column;
-    /* margin-left: auto; */
-    margin-right: 0;
     align-items: center;
-    justify-content: space-around;
-  
-  }
-  .left-footer-links {
-    display: block;
-    align-items: center;
-    justify-items: center;
-  }
-  .shortly-logo h7 {
-    display: block;
-    padding-bottom: 2rem;
-    padding-right: 0px;
-    align-items: center;
-    justify-items: center;
+    justify-content: center;
+    padding: 50px 0;
   }
   
-  .resources-links .company-links {
-    padding-right: 0;
-    padding-top: 2rem;
+  footer .footer {
+    align-items: center;
   }
   
-  .features-links {
-    padding: 0;
+  footer .icons {
+    padding-top: 40px;
+  }
+  
+  footer .footer a:first-child {
+    padding-top: 40px;
   }
   
   .social-media-logo {
@@ -541,5 +528,7 @@ i {
     justify-content: center;
     align-items: center;
   }
+  
+  
 
 }
