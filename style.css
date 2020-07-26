@@ -1,11 +1,12 @@
+/* google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
-
+/* root */
 :root {
     font-size: 62.5%;
     --cyan: hsl(180, 66%, 49%);
     --darkViolet: hsl(257, 27%, 26%);
     --red: hsl(0, 87%, 67%);
-    --gray: hsl(0, 0%, 93%);
+    --gray: #f0f8ff;
     --grayishViolet: hsl(257, 7%, 63%);
     --veryDarkBlue: hsl(255, 11%, 22%);
     --veryDarkViolet: hsl(260, 8%, 14%);
@@ -17,11 +18,14 @@
     box-sizing: border-box;
 }
 
+/* body */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8rem;
 }
 
+/* navbar */
 .topnav {
     overflow: hidden;
     padding-top: 20px;
@@ -69,6 +73,8 @@ body {
     float: right;
 }
 
+/* button */
+
 .btn {
     cursor: pointer;
     padding: 8px 22px;
@@ -84,6 +90,8 @@ body {
     background-color: rgb(42, 207, 207, 0.8);
 }
 
+/* main section */
+
 main {
     display: flex;
     /* flex-direction: column; */
@@ -92,6 +100,7 @@ main {
     padding-left: 10%;
     margin-top: 50px;
 }
+
 
 .main-heading {
     display: flex;
@@ -133,6 +142,8 @@ main .btn {
     background-color: var(--gray);
     margin-top: 120px;
 }
+
+/* url-shortner form */
 
 section .input {
     position: relative;
@@ -380,6 +391,7 @@ section .heading p {
     font-weight: 700;
     padding: 10px 24px;
 }
+/* footer */
 
 footer {
     display: flex;
@@ -420,6 +432,7 @@ footer .icons a:hover {
     color: var(--cyan);
 }
 
+/* mobile and desktop screen */
 @media (max-width: 1024px) {
     .card h3 {
         font-size: 20px;

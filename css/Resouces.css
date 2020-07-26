@@ -17,7 +17,7 @@ body {
 /*page container*/
 
 .container {
-  width: 85%;
+  width: 80%;
   margin: 0px auto;
 }
 
@@ -65,19 +65,17 @@ body {
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: bolder; 
-  margin: 2rem; 
 }
 
-.right-nav {
-  cursor: pointer;
-  /* padding: 8px 22px; */
-  padding-right: 2%;
+.right-nav .btn {
+  
+  padding: 8px 22px;
   border: none;
-  /* background-color: hsl(180, 66%, 49%); */
+  background-color: hsl(180, 66%, 49%);
   color: #fff;
   border-radius: 20px;
   font-weight: 500;
-  /* margin-top: 7px; */
+  margin-top: 7px;
 }
 .right-nav{
   float:right;
@@ -247,8 +245,8 @@ footer .footer a {
   padding-bottom: 5px;
 }
 
-footer .footer a:hover {
-  color: var(--cyan);
+footer a:hover {
+  color:  hsl(180, 66%, 49%);
 }
 
 footer .footer a:first-child {
@@ -258,16 +256,16 @@ footer .footer a:first-child {
   padding-bottom: 20px;
 }
 
-footer .social-media-logos a {
+footer .social-media-logo a {
   color: #fff;
   padding-right: 5px;
 }
 
-footer .social-media-logos a:hover {
+footer .social-media-logo a:hover {
   color:hsl(180, 66%, 49%);
 }
 i {
-  color: #fff;
+  /* color: #fff; */
 }
 
 
